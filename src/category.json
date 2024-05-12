@@ -1,0 +1,52 @@
+[
+    {
+        "id":0,
+        "img":"https://cdn.freshtohome.com/media/banner/54a6b0472fe6f479.png",
+        "name":"Snack"
+    },
+    {
+      "id": 1,
+      "img": "https://cdn.freshtohome.com/media/banner/54a6b0472fe6f479.png",
+      "name": "Snack"
+    },
+    {
+      "id": 2,
+      "img": "https://cdn.freshtohome.com/media/banner/54a6b0472fe6f479.png",
+      "name": "Snack"
+    },
+    {
+      "id": 3,
+      "img": "https://cdn.freshtohome.com/media/banner/54a6b0472fe6f479.png",
+      "name": "Snack"
+    }
+    ,{
+      "id": 4,
+      "img": "https://cdn.freshtohome.com/media/banner/54a6b0472fe6f479.png",
+      "name": "Snack"
+    },
+    {
+      "id": 5,
+      "img": "https://cdn.freshtohome.com/media/banner/54a6b0472fe6f479.png",
+      "name": "Snack"
+    },
+    {
+      "id": 6,
+      "img": "https://cdn.freshtohome.com/media/banner/54a6b0472fe6f479.png",
+      "name": "Snack"
+    },
+    {
+      "id": 7,
+      "img": "https://cdn.freshtohome.com/media/banner/54a6b0472fe6f479.png",
+      "name": "Snack"
+    },
+    {
+      "id": 8,
+      "img": "https://cdn.freshtohome.com/media/banner/54a6b0472fe6f479.png",
+      "name": "Snack"
+    },
+    {
+      "id": 9,
+      "img": "https://cdn.freshtohome.com/media/banner/54a6b0472fe6f479.png",
+      "name": "Snack"
+    }
+]
