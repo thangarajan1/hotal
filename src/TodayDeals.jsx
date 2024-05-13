@@ -3,8 +3,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Datas from "./Flashsale.json";
+import { useCart } from "react-use-cart";
+
 
 export default function TodayDeals() {
+ const { addItem } = useCart();
+
   var settings = {
     dots: true,
     infinite: false,
@@ -66,11 +70,14 @@ const name1 =
                               <strike>Rs {item.dis}</strike>
                             </p>
                             <p className="card-text text-muted">
-                              Rs {item.amt}
+                              Rs {item.price}
                             </p>
                           </div>
                           <div className="col-md-6 d-flex align-items-center">
-                            <button className="btn border-success text-success w-100">
+                            <button
+                              onClick={() => addItem(item)}
+                              className="btn border-success text-success w-100"
+                            >
                               Add
                             </button>
                           </div>

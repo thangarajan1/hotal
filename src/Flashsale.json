@@ -1,75 +1,84 @@
 [
 
     {
-        "id":"1",
-        "img":"https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/c/h/chicken-1kg-800x533px.jpeg",
-        "kg":"1kg",
-        "name":"Premium Chicken - 1 Full Chicken Curry Cut (Skinless)",
-        "dis":"430",
-        "amt":"259"
+      "id": "1",
+      "img": "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/c/h/chicken-1kg-800x533px.jpeg",
+      "kg": "1kg",
+      "name": "Premium Chicken - 1 Full Chicken Curry Cut (Skinless)",
+      "dis": 430,
+      "price": 259,
+      "quantity": 1
     },
     {
       "id": "2",
       "img": "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/g/o/goat-chicken-chicken_cubes_1_1.jpg",
       "kg": "1kg",
       "name": "Premium Goat + Premium Chicken Skinless + Boneless Chicken Cubes",
-      "dis": "847",
-      "amt": "666"
+      "dis": 847,
+      "price": 666,
+      "quantity": 1
     },
      {
        "id": "3",
        "img": "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/r/o/rohu_12.jpg",
        "kg": "1kg",
        "name": "Rohu / Rui",
-       "dis": "219",
-       "amt": "129"
+       "dis": 219,
+       "price": 129,
+       "quantity": 1
      },
       {
         "id": "4",
         "img": "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/r/o/roasted-coconut-curry-product_1.jpg",
         "kg": "1kg",
         "name": "DIY Roasted Coconut Curry (200g pack)",
-        "dis": "199",
-        "amt": "99"
+        "dis": 199,
+        "price": 99,
+         "quantity":1
       },
        {
          "id": "5",
          "img": "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/t/a/tamarind-fish-curry-product_1.jpg",
          "kg": "1kg",
          "name": "DIY Tamarind & Coconut Fish Curry (200g pack)",
-         "dis": "199",
-         "amt": "99"
+         "dis": 199,
+         "price": 99,
+         "quantity": 1
        },
         {
           "id": "6",
           "img": "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/t/a/tawa-fish-fry-product_1.jpg",
           "kg": "1kg",
           "name": "DIY Tawa Fish Fry Masala (200g pack)",
-          "dis": "199",
-          "amt": "99"
+          "dis": 199,
+          "price": 99,
+           "quantity":1
         },
          {
            "id": "7",
            "img": "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/p/e/pepper-chicken-product_1.jpg",
            "kg": "1kg",
            "name": "DIY pepper Chicken masala (200g pack)",
-           "dis": "199",
-           "amt": "99"
+           "dis": 199,
+           "price": 99,
+           "quantity": 1
          },
           {
             "id": "8",
             "img": "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/l/a/lasooni_chicken_seekh_kebab.jpg",
             "kg": "1kg",
             "name": "Lasooni Chicken Seekh Kebab (200g pack , 4 pieces)",
-            "dis": "299",
-            "amt": "149"
+            "dis": 299,
+            "price": 149,
+            "quantity":1
           },
            {
              "id": "9",
              "img": "https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/f/r/fresh_ricotta.jpg",
              "kg": "1kg",
              "name": "Fresh Ricotta Cheese (200g pack)",
-             "dis": "499",
-             "amt": "399"
+             "dis": 499,
+             "price": 399,
+             "quantity": 1
            }
 ]

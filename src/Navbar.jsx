@@ -11,25 +11,25 @@ export default function Navbar() {
       </div>
     </form>
       <ul class="nav justify-content-around fixed-bottom bg-white">
-        <li class="nav-item">
+        <li class="nav-item fs-5">
           <Link to={"/"} className="nav-link active">
             Home
           </Link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item fs-5">
           <Link to={"/favorites"} className="nav-link">
             Favorites
           </Link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item fs-5">
           <Link to={"/categories"} className="nav-link">
             Categories
           </Link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item fs-5">
           <Link to={"/card"} className="nav-link">Card</Link>
         </li>
-        <li class="nav-item">
+        <li class="nav-item fs-5">
           <Link to={"/account"} className="nav-link">Account</Link>
         </li>
       </ul>

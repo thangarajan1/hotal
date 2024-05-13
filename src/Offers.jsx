@@ -1,6 +1,17 @@
 import React from 'react'
+import Slider from "react-slick";
+
 
 export default function Offers() {
+   var settings = {
+     infinite: true,
+     speed: 500,
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     autoplay: true,
+     autoplaySpeed: 3000,
+     cssEase: "linear",
+   };
   return (
     <>
       <div>
@@ -41,48 +52,44 @@ export default function Offers() {
         </div>
       </div>
 
-      <div
-        id="carouselExampleSlidesOnly"
-        className="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
+      <div className="slider-container">
+        <Slider {...settings}>
+          <div>
             <img
               src="https://static.freshtohome.com/images/mobile/fine-art-of-freshness/fine-art-of-freshness-banner.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
-          <div className="carousel-item">
+          <div>
             <img
               src="https://static.freshtohome.com/images/mobile/fine-art-of-freshness/good-fish-comes-in-small-boat-mbl.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
-          <div className="carousel-item">
+          <div>
             <img
               src="https://static.freshtohome.com/images/mobile/fine-art-of-freshness/love-air-goat-banner.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
-          <div className="carousel-item">
+          <div>
             <img
               src="https://static.freshtohome.com/media/banner/310bb28d016c61f4.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
-          <div className="carousel-item">
+          <div>
             <img
               src="https://static.freshtohome.com/images/mobile/fine-art-of-freshness/fastest-prawn-peelers-banner.jpg"
               className="d-block w-100"
               alt="..."
             />
           </div>
-        </div>
+        </Slider>
       </div>
     </>
   );
